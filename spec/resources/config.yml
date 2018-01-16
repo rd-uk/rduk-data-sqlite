@@ -1,0 +1,11 @@
+---
+connections:
+  -
+    name: sqlite
+    file: ':memory:'
+data:
+  default: sqlite
+  providers:
+    -
+      name: sqlite
+      type: '~/lib'
